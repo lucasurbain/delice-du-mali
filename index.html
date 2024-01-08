@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Délice du Mali</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" class="nav__logo-icon" width="24px">
+                     Délice du Mali
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Accueil</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Notre histoire</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Nos produits</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">Nos services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Nous contacter</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/mali.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Savourez l'authenticité malienne.
+                        </h1>
+                        <p class="home__description">
+                            Voyagez à travers les saveurs du Mali dans notre restaurant unique.
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            En savoir plus <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Suis-nous</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Découvrez la richesse gastronomique du Mali à chaque bouchée.
+                        </h2>
+
+                        <p class="about__description">
+                            Bienvenue dans notre restaurant, où chaque plat est une invitation à un voyage gustatif à travers les saveurs riches et authentiques du Mali. Nous sommes fiers de vous offrir une expérience culinaire exceptionnelle, imprégnée de l'héritage et de la diversité de la cuisine malienne.
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Authenticité
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Hospitalité
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Qualité
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Découverte
+                            </p>
+                        </div>
+
+                        <a href="#" class="button--link button--flex">
+                            Réservez une table <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Steps to start your <br> plants off right
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Authenticité</h3>
+                            <p class="steps__card-description">
+                                Incarner la véritable essence de la cuisine malienne, en préservant les traditions culinaires et en utilisant des ingrédients locaux de qualité.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Hospitalité</h3>
+                            <p class="steps__card-description">
+                                Créer une atmosphère accueillante et chaleureuse, offrant à chaque client une expérience où le service exceptionnel est une priorité.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Excellence</h3>
+                            <p class="steps__card-description">
+                                Rechercher constamment l'excellence dans chaque aspect de votre restaurant, de la préparation des plats à la qualité du service, pour garantir une expérience culinaire exceptionnelle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Découvrez nos plats
+                </h2>
+
+                <p class="product__description">
+                    Découvrez une large gamme de produits et de recette 100% malienne.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product.png" alt="" class="product__img">
+
+                        <h3 class="product__title">PLAT 1</h3>
+                        <span class="product__price">CHF 19.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product.png" alt="" class="product__img">
+
+                        <h3 class="product__title">PLAT 2</h3>
+                        <span class="product__price">CHF 11.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product.png" alt="" class="product__img">
+
+                        <h3 class="product__title">PLAT 3</h3>
+                        <span class="product__price">CHF 7.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product.png" alt="" class="product__img">
+
+                        <h3 class="product__title">PLAT 4</h3>
+                        <span class="product__price">CHF 5.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product.png" alt="" class="product__img">
+
+                        <h3 class="product__title">PLAT 5</h3>
+                        <span class="product__price">CHF 10.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product.png" alt="" class="product__img">
+
+                        <h3 class="product__title">PLAT 6</h3>
+                        <span class="product__price">CHF 8.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Quelques questions fréquemment posées étaient souvent posées.
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Qu'est-ce qui rend la cuisine malienne unique ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Notre cuisine malienne est unique grâce à l'utilisation d'ingrédients authentiques et à la préparation traditionnelle, préservant ainsi les saveurs riches et les techniques culinaires héritées de génération en génération.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Avez-vous des options végétariennes dans votre menu ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Oui, nous proposons plusieurs plats végétariens délicieux, mettant en valeur des ingrédients frais et des épices malienne pour offrir une expérience gustative diversifiée.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Pouvons-nous faire des réservations en ligne ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Absolument ! Vous pouvez facilement faire des réservations en ligne via notre site web pour garantir une table à l'heure qui vous convient.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Les plats sont-ils adaptés aux allergies alimentaires ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Oui, nous sommes attentifs aux allergies alimentaires. Informez simplement notre personnel lors de la commande, et nous ferons de notre mieux pour accommoder vos besoins alimentaires spécifiques.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Proposez-vous des plats à emporter ou une livraison ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Oui, nous offrons des plats à emporter pour ceux qui souhaitent déguster nos délices malien à la maison. De plus, la livraison est disponible via notre partenaire de livraison local.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Pourquoi Délice du Malice ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Nous voulons nous rapprocher des origines malienne de notre fondatrice.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Vous avez une autre demande ?
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Appelez notre restaurant</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +00 41 26 347 20 40
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Notre mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    contact@delice-du-mali.ch
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">E-mail</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Sujet</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Envoyer le message
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/logo.png" class="nav__logo-icon" width="24px">
+                         Délice du mali
+                    </a>
+
+                    <h3 class="footer__title">
+                        S'abonner à notre newsletter <br> pour rester informé.
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Votre e-mail" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            S'abonner
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Notre adresse</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">10 Rue de l'Eglise,</li>
+                        <li class="footer__information">1630 Bulle,</li>
+                        <li class="footer__information">Canton de fribourg, CH</li>
+
+                        
+
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Nous contacter</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+00 41 26 347 20 40</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Nous acceptons comme paiement
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">2024.1.1 | Copyright © 2024 Lucas Urbain | All Rigths Reserved.</p>
+        </footer>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
