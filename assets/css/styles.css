@@ -8,10 +8,10 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 152;
-  --first-color: hsl(var(--hue), 24%, 32%);
-  --first-color-alt: hsl(var(--hue), 24%, 28%);
-  --first-color-light: hsl(var(--hue), 24%, 66%);
-  --first-color-lighten: hsl(var(--hue), 24%, 92%);
+  --first-color: #3398c3;
+  --first-color-alt: #0e9cd8;
+  --first-color-light: #9fd5ed;
+  --first-color-lighten:  #c7e7f5;
   --title-color: hsl(var(--hue), 4%, 15%);
   --text-color: hsl(var(--hue), 4%, 35%);
   --text-color-light: hsl(var(--hue), 4%, 55%);
@@ -369,7 +369,7 @@ the website, in dark theme
 /*=============== BUTTONS ===============*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--first-color-alt);
   color: #FFF;
   padding: 1rem 1.75rem;
   border-radius: .5rem;
